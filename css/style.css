@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee;
+}
+.container{
+	background-color: #000;
+}
+#intro{
+	background-color: transparent;
+	background-size: cover;
+	background-image: url(../img/Jonathan.jpg);
+	background-position: center;
+	padding: 25% 0;
+}
+#intro p{
+	color: #fff;
+	font-size: 100px;
+}
+.text-center{
+	color: #000;
+	font-size: 50px;
+	text-align: center;
+}
+.btn-light{
+	background-color: #000;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 20px;
+	letter-spacing: 2px;
+	border: 0;
+	margin: 30px auto;
+}
+.btn-light:hover{
+	background-color: #fff;
+	color: #000;
+}
+.container_about{
+	background-color: #f2f2f2;
+	padding: 5% 0;
+}
+.btn-dorado{
+	background-color: #000;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 20px;
+	letter-spacing: 2px;
+	border: 0;
+	margin: 30px auto;
+}
+.btn-dorado:hover{
+	background-color: #fff;
+	color: #000;
+}
+.container_about h1{
+	font-size: 100px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(0,0,0,0.45);
+	opacity: 0;
+	transition: 0.3s all ease-out;
+}
+.container_contact{
+	background-image: url(../img/comunicacion.jpg);
+	background-size: cover;
+}
+.container_contact .fas{
+	background-color: #fff;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #af9f66;
+	font-size: 26px;
+	border-radius: 100%;
+}
+.container_contact h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400px;
+	color: #6f6c68;
+}
+.fas, .fab{
+	background-color: #010e43;
+	width: 300px;
+	height: 300px;
+	line-height: 300px;
+	text-align: center;
+	color: #fff;
+	font-size: 100px;
+	border-radius: 100%;
+}
+.fas h2{
+	font-size: 100px;
+	text-align: center;
+}
+.fab{
+	color: #fff;
+}
+.container_services h1{
+	text-align: center;
+	font-size: 80px;
+	text-transform: uppercase;
+}
+.container_footer{
+	background-color: #000;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	font-size: 80px;
+}
